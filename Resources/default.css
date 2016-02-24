@@ -1,0 +1,27 @@
+﻿/*Default formatting for the app*/
+html {color:black;
+      font-family:Trebuchet MS, 'Trebuchet MS', Arial, sans-serif;
+      background-color:white;
+      font-weight:400;
+      font-size:medium;
+}
+
+InputLabel {color:black;
+      font-weight:700;
+      text-align:right
+}
+
+p {
+    text-align:left;
+}
+
+p.right {text-align:right;
+
+}
+p.center {text-align:center}
+
+.footer {
+    position:fixed;
+    bottom:0;
+    font-size:0.75rem;
+}
