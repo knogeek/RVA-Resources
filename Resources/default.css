@@ -6,20 +6,20 @@ html {color:black;
       font-size:medium;
 }
 
-InputLabel {color:black;
-      font-weight:700;
-      text-align:right
-}
-
+/*Paragraph formatting*/
 p {
     text-align:left;
 }
 
+/*Right aligned paragraphs*/
 p.right {text-align:right;
 
 }
+
+/*Centered paragraphs*/
 p.center {text-align:center}
 
+/*Footer*/
 .footer {
     position:fixed;
     bottom:0;
