@@ -19,6 +19,7 @@
     <Compile Include="index.php" />
     <Compile Include="organization.php" />
     <Compile Include="search.php" />
+    <Compile Include="servingagency.php" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.css" />

@@ -6,7 +6,8 @@
     <title>Resources</title>
 </head>
 <body>
-    <!-- Display all listed agencies and affiliated services with primary phone numbers. -->
+    <!-- Initial list is all services and a count of how many agencies provide
+         that service. Services without a provider will not be shown. -->
     <form name="Search" method="get" action="search.php">
         <fieldset>
             <legend><strong>What Are You Looking For?</strong></legend>
@@ -14,7 +15,8 @@
             <input type="search" name="searchterm"><br>
             <input type="submit" value="Find">
         </fieldset>
-    </form>
+        <input type="image" src="resources/panic_button.jpg"/ value="Help!">
+</form>
     <!--Table is a static representation of expected result-->
     <table>
         <thead>Service</thead>
@@ -33,7 +35,6 @@
             </tr>
         </tbody>
     </table>
-    <img src="panic_button.jpg" alt="Panic Button">
     <div class="footer">Copyright 2016, Alan Webb, All Rights Reserved. Thank you, Nicki Moon.</div>
     <?php
     /**
