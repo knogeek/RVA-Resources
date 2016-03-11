@@ -1,0 +1,4 @@
+﻿<div class="row">
+            <div class="col-xs-6">Each Service starts here</div>
+            <div class="col-xs-6" style="text-align:right">#</div>
+</div>

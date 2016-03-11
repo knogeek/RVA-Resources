@@ -16,12 +16,16 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="dataconnection.php" />
+    <Compile Include="dbObject.php" />
     <Compile Include="index.php" />
-    <Compile Include="organization.php" />
+    <Compile Include="agency.php" />
+    <Compile Include="MysqliDb.php" />
     <Compile Include="search.php" />
     <Compile Include="servingagency.php" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.css" />
+    <Content Include="scratchpad.txt" />
   </ItemGroup>
 </Project>
