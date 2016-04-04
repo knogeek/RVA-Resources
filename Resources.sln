@@ -3,18 +3,42 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "Resources", "Resources\Resources.phpproj", "{B1D581EE-93EB-4216-899C-F4055BE298DB}"
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "RVA Resources", "Resources\RVA Resources.phpproj", "{B1D581EE-93EB-4216-899C-F4055BE298DB}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "rva_resources", "ftp://ftp.worldofwebb.net/rva_resources", "{4E76B700-F8A4-4566-BE9D-8D41E8041B4D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/rva_resources"
+		Debug.AspNetCompiler.PhysicalPath = "C:\Users\alan\AppData\Local\Temp\VWDWebCache\ftp_ftp.worldofwebb.net_rva_resources_blog88boss\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\rva_resources\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/rva_resources"
+		Release.AspNetCompiler.PhysicalPath = "C:\Users\alan\AppData\Local\Temp\VWDWebCache\ftp_ftp.worldofwebb.net_rva_resources_blog88boss\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\rva_resources\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Description = Publish a paper list of services offered by RVA providers
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B1D581EE-93EB-4216-899C-F4055BE298DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B1D581EE-93EB-4216-899C-F4055BE298DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1D581EE-93EB-4216-899C-F4055BE298DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1D581EE-93EB-4216-899C-F4055BE298DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E76B700-F8A4-4566-BE9D-8D41E8041B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E76B700-F8A4-4566-BE9D-8D41E8041B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E76B700-F8A4-4566-BE9D-8D41E8041B4D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E76B700-F8A4-4566-BE9D-8D41E8041B4D}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

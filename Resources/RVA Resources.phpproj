@@ -2,12 +2,16 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Name>Resources</Name>
+    <Name>RVA Resources</Name>
     <ProjectGuid>b1d581ee-93eb-4216-899c-f4055be298db</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Resources</RootNamespace>
+    <RootNamespace>rva_resources</RootNamespace>
     <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
     <AssemblyName>Resources</AssemblyName>
+    <Runtime>PHP</Runtime>
+    <RuntimeVersion>5.6</RuntimeVersion>
+    <ProjectHome />
+    <WebRoot>./rva_resources</WebRoot>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
@@ -16,16 +20,24 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="dataconnection.php" />
-    <Compile Include="dbObject.php" />
+    <Compile Include="providerdetail.php" />
+    <Compile Include="data_cn.php" />
     <Compile Include="index.php" />
     <Compile Include="agency.php" />
-    <Compile Include="MysqliDb.php" />
+    <Compile Include="people.php" />
+    <Compile Include="providers.php" />
     <Compile Include="search.php" />
     <Compile Include="servingagency.php" />
+    <Compile Include="session.php" />
+    <Compile Include="showinfo.php" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.css" />
+    <Content Include="google-logo.jpg" />
+    <Content Include="index.html" />
+    <Content Include="Resources.phpproj.user" />
+    <Content Include="rva_logo.jpg" />
     <Content Include="scratchpad.txt" />
+    <Content Include="underconstruction.gif" />
   </ItemGroup>
 </Project>

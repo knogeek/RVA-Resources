@@ -1,4 +1,28 @@
 ﻿<div class="row">
-            <div class="col-xs-6">Each Service starts here</div>
-            <div class="col-xs-6" style="text-align:right">#</div>
-</div>
+            <!-- Column 1 is the name of the service, Column 2 is the count of agencies that provide that service -->
+            <!-- Column headings -->
+            <div class="col-xs-6" style="text-align:center"><strong>Service</strong></div>
+            <div class="col-xs-6" style="text-align:right"><strong># of agencies</strong></div>
+        </div>
+        <div class="row">
+            <!-- Column Detail -->
+			<!-- Column 1 Service Name -->
+            <div class="col-xs-6" style="text-align:center">Service</div>
+			<!-- Column 2 Count of Agencies/Providers -->
+            <div class="col-xs-6" style="text-align:right"># of agencies</div>
+		</div>
+
+		$host="mysqlcluster8.registeredsite.com";
+$port=3306;
+$socket="";
+$user="trollboss";
+$password="";
+$dbname="wow_dev";
+
+$con = new mysqli($host, $user, $password, $dbname, $port, $socket)
+	or die ('Could not connect to the database server' . mysqli_connect_error());
+
+//$con->close();
+
+Show agency's with blank state/provinces that won't tie to state_code_tbl
+select agency.agency_name, agency.servicearea, agency.state_code as missingstate from agency_tbl as agency where agency.state_code not in (select idstatecode from statecode_tbl) order by agency.agency_name;
