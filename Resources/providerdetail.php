@@ -28,13 +28,27 @@
         <p style="text-align:center" class="text-warning">
             <mark style="background-color:hotpink;font-weight:700;font-family:Verdana, Geneva, Tahoma, sans-serif;">Not Done Yet. If something works you got lucky.</mark>
         </p>
-        <p style="font-weight:bold">Providers</p>
+        <p style="font-weight:bold">Provider Details</p>
         
-        <!-- Column Headings -->
         <!-- Provider details -->
+        <form role="form">
+            <div class="form-group">
+                
+            </div>
+        </form>
         <?php 
         ?>
+        <!-- Google Custom Search-->
+        <form action="http://www.google.com" id="cse-search-box" target="_blank">
+            <div>
+                <input type="hidden" name="cx" value="partner-pub-7275392186591516:pt43wh-ghaa" />
+                <input type="hidden" name="ie" value="ISO-8859-1" />
+                <input type="text" name="q" size="31" />
+                <input type="submit" name="sa" value="Search" />
+            </div>
+        </form>
 
+        <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
     <!--Container div end-->
     </div>
 </body>
